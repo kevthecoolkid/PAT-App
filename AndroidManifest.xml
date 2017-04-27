@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amazonaws.demo.userpreferencesom"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="PAT Fitness"
+        android:theme="@style/no_title">
+        <activity
+            android:name=".UserPreferenceDemoActivity"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".UserListActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".userLogin" />
+        <activity android:name=".RegisterP1" />
+        <activity android:name=".RegisterP2" />
+        <activity android:name=".RegisterP3" />
+        <activity android:name=".WelcomePage" />
+        <activity android:name=".ProfilePage"></activity>
+    </application>
+
+</manifest>

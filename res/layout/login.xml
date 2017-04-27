@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpagepic">
+
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        android:layout_above="@+id/editText15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editText14" />
+
+    <Button
+        android:id="@+id/cred_login"
+        android:layout_width="120sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/editText15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="90sp"
+        android:layout_height="28sp"
+        android:text="Password"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/gray"
+        android:layout_above="@+id/editText15"
+        android:layout_alignLeft="@+id/editText15" />
+</RelativeLayout>
+

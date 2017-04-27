@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registrationpagethree">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Choose Your Current Fitness Goals"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="260sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="100dp"
+        android:text="Lose Weight"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:background="@drawable/gray"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="260sp"
+        android:layout_height="40sp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginTop="34dp"
+        android:text="Build Muscles"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:background="@drawable/gray" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="260sp"
+        android:layout_height="40sp"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginTop="34dp"
+        android:text="Tone Muscles"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:background="@drawable/gray" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="260sp"
+        android:layout_height="40sp"
+        android:layout_alignLeft="@+id/checkBox3"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginTop="34dp"
+        android:text="Maintain Body"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:background="@drawable/gray" />
+
+    <Button
+        android:id="@+id/get_started_bttn"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text="Get Started!"
+        android:textSize="28sp"/>
+</RelativeLayout>

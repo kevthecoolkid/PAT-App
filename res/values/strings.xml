@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UserPreferenceDemo</string>
+    <string name="Sets">Set Number</string>
+    <string name="reps">Reps Counted</string>
+    <string name="Number">Number</string>
+    <string name="Weight">Weight (Lbs)</string>
+
+
+    <string-array name="gender_identity">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
+</resources>
